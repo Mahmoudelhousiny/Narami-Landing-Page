@@ -132,10 +132,15 @@ header .container .header-icon i:hover,
   opacity: 0.6;
 }
 
+header .container .menu > :first-child {
+  color: var(--lt-black-color);
+}
+
 header .container .menu nav a:not(:last-child) {
   padding-bottom: 3px;
   border-bottom: 2px solid #eee;
 }
+
 header .container .menu nav {
   position: absolute;
   display: grid;
